@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+    <title>Feedback form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+
+  <body>
+    <div class="container">
+      <h1 id="title">Tell me about you</h1>
+      <p id="description" class="description" >Let's talk to me from this form and we can be friends then :)</p>
+      <form id="survey-form">
+
+        <div class="form-group">
+          <label id="name-label" for="name">Name</label>
+          <input id="name" type="text" class="form-control" name="name" placeholder="Input your name" required />
+        </div>
+
+        <div class="form-group">
+          <label id="email-label" for="email">Email</label>
+          <input id="email" type="email" class="form-control" name="email" placeholder="Input your Email" required/>
+        </div>
+        
+        <div class="form-group">
+          <label id="number-label" for="number">Phone number<span class="clue">(Opsional)</span></label>
+          <input id="number" type="number" class="form-control" name="phone_number" min="3" max="100" placeholder="Enter your phone number"/>
+        </div>
+        
+        <div class="form-group">
+          <p>Your gender?</p>
+          <select id="dropdown" name="roles" class="form-control" required>
+            <option disabled selected value>Select an option</option>
+            <option value="male">Male</option>
+            <option>Female</option>
+          </select>
+        </div>
+        
+        <fieldset class="form-group1">
+          <legend>
+            1. If you had to choose one,<br>
+            which would make you the happiest?
+          </legend>
+          <br>
+          <label for="choose-one" class="small-text">
+            <input id="choose-one" type="radio" value="hamonious" class="input-radio" name="happiness" checked />
+            Having a harmonious relationship with family and a partner.
+          </label>
+
+          <label for="choose-two" class="small-text">
+            <input id="choose-two" type="radio" value="Success" class="input-radio" name="happiness" />
+            Successfully achieving all your life goals.
+          </label>
+
+          <label for="choose-three" class="small-text">
+            <input id="choose-three" type="radio" value="enjoy" class="input-radio" name="happiness" />
+            Living freely without pressure, enjoying hobbies and activities you love.
+          </label>
+
+          <label for="choose-four" class="small-text">
+            <input id="choose-four" type="radio" value="healthy" class="input-radio" name="happiness" />
+            Staying healthy and fit while living a stress-free life.
+          </label>
+
+          <label for="choose-five" class="small-text">
+            <input id="choose-five" type="radio" value="artstyle" class="input-radio" name="happiness" />
+            Listening to your favorite music, enjoying delicious food, and reading a good book.
+          </label>
+
+          <label for="choose-six" class="small-text">
+            <input id="choose-six" type="radio" value="lifejoy" class="input-radio" name="happiness" />
+            Helping others, contributing to social causes, and bringing joy to people.
+          </label>
+
+          <label for="choose-seven" class="small-text">
+            <input id="choose-seven" type="radio" class="input-radio" value="freedom" name="happiness" />
+            Having the financial freedom to buy whatever you want without worrying about money. </label><br>
+        </fieldset><br>
+
+        <fieldset class="form-group1">
+          <legend>
+            2. If you had to choose one,<br>
+            which would make you the happiest?
+          </legend>
+          <label for="choose-seven" class="small-text">
+            <input id="choose-seven" type="checkbox" value="survey-form" class="input-checkbox" name="happiness" />
+            Having the financial freedom to buy whatever you want without worrying about money.
+          </label>
+          <label for="choose-seven" class="small-text">
+            <input id="choose-seven" type="checkbox" value="survey-form" class="input-checkbox" name="happiness" />
+            Having the financial freedom to buy whatever you want without worrying about money.
+          </label>
+          <label for="choose-seven" class="small-text">
+            <input id="choose-seven" type="checkbox" value="survey-form" class="input-checkbox" name="happiness" />
+            Having the financial freedom to buy whatever you want without worrying about money.
+          </label>
+          <label for="choose-seven" class="small-text">
+            <input id="choose-seven" type="checkbox" value="survey-form" class="input-checkbox" name="happiness" />
+            Having the financial freedom to buy whatever you want without worrying about money.
+          </label>
+          <label for="choose-seven" class="small-text">
+            <input id="choose-seven" type="checkbox" value="survey-form" class="input-checkbox" name="happiness" />
+            Having the financial freedom to buy whatever you want without worrying about money.
+          </label>
+        </fieldset><br>
+
+        <div class="form-group">
+          <p>Any comments or suggestions?</p>
+          <label for="comments"></label>
+          <textarea id="comments" type="text" class="input-textarea" name="comment" placeholder="Enter your comment here" required/></textarea>
+        </div>
+
+        <div class="form-group">
+          <button type="submit" id="submit" class="submit-button">Submit</button>
+        </div>
+    <!-- Radio type -->
+        <div>
+
+        </div>
+      </form>
+   </div>
+  </body>
+</html>

@@ -1,0 +1,156 @@
+body {
+    font-family: 'Tahoma', sans-serif;
+  background-image: url(https://www.creativefabrica.com/wp-content/uploads/2023/05/11/Modern-colourful-abstract-background-Graphics-69439498-1.jpg);
+  background-size: cover; 
+  background-attachment: fixed; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 768px) {
+.container {
+  max-width: 720px;
+  }
+}
+
+p {
+  font-weight: bold;
+}
+
+.description {
+  font-weight: light;
+  font-style: italic;
+}
+
+.container {
+  width: 100%;
+  margin: 3.125rem auto 0 auto;
+}
+
+@media (min-width: 576px) {
+.container {
+  max-width: 540px;
+  }
+}
+
+form {
+  padding: 3rem;
+  background: black;
+  border-radius: 1rem;
+}
+
+
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.form-group {
+  margin: 0 auto 1.25rem auto;
+  padding: 0.25rem;
+}
+
+label {
+  display: flex;
+  align-items: flex-start;
+  font-size: 12px;
+  line-height: 1.4;
+  margin-bottom: 8px;
+  text-align: justify;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: 2.375rem;
+  padding: 0.1rem 0;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0 15sease-in-out, box-shadow 0.15sease-in-out;
+}
+
+input, button, select, textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+input:not([type="image" i], [type="range" i], [type="checkbox" i], [type="radio" i]) {
+  overflow-clip-margin: 0px !important;
+  overflow: clip !important;
+}
+
+.clue {
+  font-family: tohama;
+  margin-left: 0.25rem;
+  font-size: 0.7rem;
+  color: #e4e4e4;
+}
+
+.small-text {
+  font-size: 14px;
+  /* margin: auto; */
+}
+
+.form-group1 {
+  border: 2px solid #fff;
+  border-radius: 12px; 
+  padding: 15px;
+  width: 400px; 
+  /* background-color: #222;  */
+  color: #fff; 
+}
+
+legend {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.input-radio {
+  margin-right: 10px; 
+  margin-top: 4px;
+}
+
+.input-checkbox {
+  margin-right: 10px; 
+  margin-top: 4px; 
+}
+
+fieldset {
+  max-width: 500px;
+  margin: auto; 
+  padding: 0.1rem 0;
+}
+
+.input-textarea {
+    min-height: 120px;
+    width: 100%;
+    padding: 0.625rem;
+    resize: vertical;
+    padding: 0.1rem 0;
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  height: 2.375rem;
+  padding: 0.75rem;
+  padding: 0.1rem 0;
+  background: var(--color-green);
+  color: inherit;
+  border-radius: 2px;
+  cursor: pointer;
+  background-color: green;
+}
